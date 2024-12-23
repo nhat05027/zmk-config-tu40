@@ -1,0 +1,6 @@
+#include <layouts/common/ortho_4x10/all1u.dtsi>
+
+&layout_ortho_4x10_all1u {
+        transform = <&default_transform>;
+        kscan = <&default_kscan>;
+    };
