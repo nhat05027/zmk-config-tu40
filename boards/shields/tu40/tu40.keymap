@@ -38,3 +38,7 @@
         };
     };
 };
+
+&nice_view_spi {
+    cs-gpios = <&gpio0 31 GPIO_ACTIVE_HIGH>;
+};
