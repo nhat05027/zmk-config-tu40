@@ -1,5 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
-#include <tu40.dtsi>
+#include <layouts/common/ortho_4x10/all1u.dtsi>
+
+&layout_ortho_4x10_all1u {
+    transform = <&default_transform>;
+    kscan = <&default_kscan>;
+};
 
 / {
     choosen {
