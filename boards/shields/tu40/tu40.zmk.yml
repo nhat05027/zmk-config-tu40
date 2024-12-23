@@ -1,0 +1,10 @@
+file_format: "1"
+id: tu40
+name: tu40
+type: shield
+url: https://github.com/nhat05027/zmk-config-tu40
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+  - underglow
