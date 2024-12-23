@@ -1,0 +1,7 @@
+if SHIELD_TU40
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "tu40"
+
+endif
